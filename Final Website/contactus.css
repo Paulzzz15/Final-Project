@@ -1,0 +1,18 @@
+.cap h1 {
+    color: #0c660b;
+}
+.cap form {
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+}
+.cap form * {
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #0c660b;
+    color: black;
+}
+.cap form *:hover {
+    border-color: #892986;
+}

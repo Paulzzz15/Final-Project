@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contactus.css">
+    <title>Contact Us</title>
+    <script src="https://kit.fontawesome.com/0c9f4945e8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="header">
+            <p><i class="fa-solid fa-phone"></i> Need Assistance? Call us today! <b> 617-586-9720</b></p>
+            <p><i class="fa-solid fa-envelope"></i>Email us: <b>johnpaulmanayon5@gmail.com</b></p>
+            <p>Stay Connected: <a href=""><i class="fa-brands fa-facebook-f"></i></a><a href=""><i class="fa-brands fa-twitter"></i></a></p>
+        </div>
+        <div class="logo">
+            <a href="index.html"><img src="picture/logogo.png" id="logo"></a>
+            <button onclick="opennav()" class="nav-button">Close</button>
+            <nav id="topnav">
+                <li><a href="index.html" class="nav-item abli">Home</a></li>
+                <li><a href="" class="nav-item">About Us</a></li>
+                <li><a href="" class="nav-item">Services</a></li>
+                <li><a href="" class="nav-item">Staff</a></li>
+                <li><a href="" class="nav-item">Apply Now</a></li>
+                <li><a href="" class="nav-item">Resources</a></li>
+                <li><a href="contactus.html" class="nav-item">Contact Us</a></li>
+                <li><a href="login.html" class="nav-item">Login</a></li>
+            </nav>
+        </div>
+    </div>    
+    <div class="background">
+        <div class="cap">
+            <h1 class="cursive">Contact Us</h1>
+            <form action="post">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="email" placeholder="Email">
+                <input type="number" placeholder="Mobile Number">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <a href="Inquire.html">Inquire?</a>
+                <button>Submit</button>
+            </form>
+        </div>    
+    </div>
+    <footer>
+        <div class="flogo">
+            <span>
+                <img src="picture/gologolo.JPG" alt="">
+                <h1>HOME TOUCH</h1>
+                <h2>CARE, INC</h2>
+            </span>
+            <p>&copy; Copyright 2022 - 2023 <span>|</span> Home Touch Care, Inc Designed by Net Solutions Interactive</p>
+        </div>
+        <div class="fcontact">
+            <span>
+                <h1 class="cursive">ContactDetails</h1>
+                <p>How can we help you? use this information to reach us.</p>
+            </span>
+            <b>24 Cresent St., #408<br>Waltham, MA 02453</b>
+            <b>Phone: 617-586-9720</b>
+            <b>Email Address: <a href="">hometouchcare@outlook.com</a></b>
+        </div>
+        <div class="fnav">
+            <h1 class="cursive">Quick Links</h1>
+            <nav>
+                <a href="index.html" class="ablihi"><i class="fa-solid fa-angles-right"></i>Home</a>
+                <a href=""><i class="fa-solid fa-angles-right"></i>About Us</a>
+                <a href=""><i class="fa-solid fa-angles-right"></i>Services</a>
+                <a href=""><i class="fa-solid fa-angles-right"></i>Staff</a>
+                <a href=""><i class="fa-solid fa-angles-right"></i>Apply Now</a>
+                <a href=""><i class="fa-solid fa-angles-right"></i>Resources</a>
+                <a href=""><i class="fa-solid fa-angles-right"></i>Contact Us</a>
+                <a href=""><i class="fa-solid fa-angles-right"></i>Login</a>
+            </nav>
+        </div>
+    </footer>
+    <script>
+        var x = document.getElementById("topnav");
+
+        function opennav() {
+            var state = 1;
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } 
+            else {
+                x.style.display = "flex";
+            }
+        }
+    </script>
+</body>
+</html>
